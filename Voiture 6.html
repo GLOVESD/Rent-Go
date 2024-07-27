@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Rent&Go | Range Rover</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="img/apple-icon.png">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/LOGOSMALL.png">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/templatemo.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <link rel="stylesheet" href="assets/css/SU.css">
+    <LInk rel="stylesheet" href="assets/css/table.css"></LInk>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;700;900&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark navbar-light d-none d-lg-block" id="templatemo_nav_top">
+        <div class="container text-light">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="fa fa-envelope mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="mailto:info@company.com">info@rentandgo.tn</a>
+                    <i class="fa fa-phone mx-2"></i>
+                    <a class="navbar-sm-brand text-light text-decoration-none" href="tel:010-020-0340">71 830 381</a>
+                </div>
+                <div>
+                    <a class="text-light" href="https://fb.com/templatemo" target="_blank" rel="sponsored"><i class="fab fa-facebook-f fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.instagram.com/" target="_blank"><i class="fab fa-instagram fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://twitter.com/" target="_blank"><i class="fab fa-twitter fa-sm fa-fw me-2"></i></a>
+                    <a class="text-light" href="https://www.linkedin.com/" target="_blank"><i class="fab fa-linkedin fa-sm fa-fw"></i></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <nav class="navbar navbar-expand-lg navbar-light shadow">
+        <div class="container d-flex justify-content-between align-items-center">
+            <a class="navbar-brand text-success logo h1 align-self-center" href="Page d'acceuil.html">
+                <img class="img-fluid" src="./assets/img/logo.png" alt="" >
+                Rent&GO    
+            </a>
+            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#templatemo_main_nav" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="align-self-center collapse navbar-collapse flex-fill  d-lg-flex justify-content-lg-between" id="templatemo_main_nav">
+                <div class="flex-fill">
+                    <ul class="nav navbar-nav d-flex justify-content-between mx-lg-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="Page d'acceuil.html">Accueil</a>
+                        </li> 
+                        <li class="nav-item">
+                            <a class="nav-link" href="Catalogue 1.html">Catalogue</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Contactez-nous.html">Contactez-nous</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="navbar align-self-center d-flex">
+                    <div class="d-lg-none flex-sm-fill mt-3 mb-4 col-7 col-sm-auto pr-3">
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="inputMobileSearch" placeholder="Search ...">
+                            <div class="input-group-text">
+                                <i class="fa fa-fw fa-search"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="nav-icon d-none d-lg-inline" href="#" data-bs-toggle="modal" data-bs-target="#templatemo_search">
+                        <i class="fa fa-fw fa-search text-dark mr-2"></i>
+                    </a>
+                    <a class="nav-icon position-relative text-decoration-none" href="#" onclick="document.getElementById('id02').style.display='block'">
+                        <i class="fa-solid fa-car"></i>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
+                    </a>  
+                    <div id="id02" class="modal">
+                        <form class="modal-content animate" action="/action_page.php" method="post">
+                            <div class="imgcontainer">
+                                <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
+                            </div>
+                            <div class="containerito">
+                                <H1>Articles Loués</H1>
+<h6>Voici votre historique de location</h6>
+<table>
+  <tr>
+    <th>Nom du produit</th>
+    <th>Date d'emprunt</th>
+    <th>Date de Retour</th>
+    <th>Nombre de jours</th>
+    <th>Type de payment</th>
+    <th>Livraison</th>
+    <th>Prix par jour</th>
+    <TH>Total</TH>
+  </tr>
+  <tr>
+    <td>ISUZU Réfrigérée</td>
+    <td>09/11/2001</td>
+    <td>11/11/2001</td>
+    <TD>2 Jours</TD>
+    <td>Avec carte</td>
+    <td>20.00DT</td>
+    <TD>200.00DT</TD>
+    <td>420.00DT</td>
+
+  </tr>
+  <tr>
+    <td>BMW X3</td>
+    <td>20/03/2000</td>
+    <td>25/03/2000</td>
+    <TD>5 Jours</TD>
+    <td>Sur Place</td>
+    <td>0DT</td>
+    <TD>400.00DT</TD>
+    <td>2000.00DT</td>
+
+  </tr>
+  <tr>
+    <td>Citroën Berlingo Van</td>
+    <td>21/02/2024</td>
+    <td>22/02/2024</td>
+    <TD>1 Jours</TD>
+    <td>Avec carte</td>
+    <td>0DT</td>
+    <TD>170.00DT</TD>
+    <td>170.00DT</td>
+  </tr>
+</table>
+ <br>
+ <h5>Pour modifier une commande ou pour annuler ou juste nous contacter veilleur clickez sur le boutton si dessous</h5>
+<div class="col d-grid">
+    <button type="submit" class="btn btn-success btn-lg" name="submit" value="buy" href="Contactez-nous.html">Contactez-nous</button>
+</div>
+                                </label>
+                            </div>
+                            <div class="container">     
+                            </div>
+                        </form>
+                    </div>
+                        <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-light text-dark"></span>
+                    </a>
+                    <i onclick="document.getElementById('id01').style.display='block'" style="width:auto;" class="fa fa-fw fa-user text-dark mr-3"></i>
+						<div id="id01" class="modal"> 
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    </div>
+    <div class="containerito">
+      <label for="uname"><b>Nom D'utilisateur</b></label>
+      <input type="text" placeholder="Tapez votre nom d'utilisateur" name="uname" required>
+      <label for="psw"><b>Mot De Passe</b></label>
+      <input type="password" placeholder="Tapez votre mot de passe" name="psw" required>        
+      <button type="button" class="btn-success">Se Connecter</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Se souvenir de moi
+      </label>
+    </div>
+    <div class="container" >
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Annuler</button>
+      <span class="psw"> <a href="Creer un compte.html">Creer un compte</a></span>
+    </div>
+  </form>
+</div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="modal fade bg-white" id="templatemo_search" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="w-100 pt-1 mb-5 text-right">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="" method="get" class="modal-content modal-body border-0 p-0">
+                <div class="input-group mb-2">
+                    <input type="text" class="form-control" id="inputModalSearch" name="q" placeholder="Search ...">
+                </div>
+            </form>
+        </div>
+    </div>
+    <section class="bg-light">
+        <div class="container pb-5">
+            <div class="row">
+                <div class="col-lg-5 mt-5">
+                    <div class="card mb-3">
+                        <img class="card-img img-fluid" src="assets/img/Catalogue Range Rover.png" alt="Card image cap" id="product-detail">
+                    </div>
+                   
+                </div>
+                <!-- col end -->
+                <div class="col-lg-7 mt-5">
+                    <div class="card">
+                        <div class="card-body">
+                            <h1 class="h2">Range Rover
+                                </h1>
+                            <p class="h3 py-2">310.00DT</p>
+                            <p class="py-2">
+                                <i class="fa fa-star text-warning"></i>
+                                <i class="fa fa-star text-warning"></i>
+                                <i class="fa fa-star text-warning"></i>
+                                <i class="fa fa-star text-warning"></i>
+                                <i class="fa fa-star text-secondary"></i>
+                                <span class="list-inline-item text-dark">Note 4.8 </span>
+                            </p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <h6>Marque: land rover</h6>
+                                </li>
+                                <li class="list-inline-item">
+                                    <p class="text-muted"><strong>Voiture Off road</strong></p>
+                                </li>
+                            </ul>
+
+                            <h6>Description:</h6>
+                            <p>Le Range Rover est un véhicule de luxe emblématique, célèbre pour son design élégant, ses performances tout-terrain et son intérieur somptueux. Ce SUV combine habilement sophistication, confort et capacités hors route exceptionnelles.</p>
+                            <ul class="list-inline">
+                                <li class="list-inline-item">
+                                    <h6>Couleur:</h6>
+                                </li>
+                                <li class="list-inline-item">
+                                    <p class="text-muted"><strong>Gris</strong></p>
+                                </li>
+                            </ul>
+
+                            <h6>Date D'occupation</h6>
+<table>
+  <tr>
+    <th>Date D'emprunt</th>
+    <th>Date De Retour</th>
+  </tr>
+  <tr>
+    <td>20/03/2000</td>
+    <td>29/11/2015</td>
+  </tr>
+  <tr>
+    <td>02/12/2020</td>
+    <td>03/04/2021</td>
+  </tr>
+  <tr>
+    <td>04/08/2021</td>
+    <td>05/06/2022</td>
+  </tr>
+</table>
+
+                            <br><form action="" method="GET">
+                                <input type="hidden" name="product-title" value="Activewear">
+
+                                <div class="row pb-3">
+                                    <div class="col d-grid">
+                                        <button type="submit" class="btn btn-success btn-lg" name="submit" value="buy">Louer</button>
+                                    </div>
+                                    <div class="col d-grid">
+                                        <button type="submit" class="btn btn-success btn-lg" name="submit" value="addtocard">Payment</button>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Close Content -->
+
+         <!-- Start Footer -->
+         <footer class="bg-dark" id="tempaltemo_footer">
+            <div class="container">
+                <div class="row">
+    
+                    <div class="col-md-4 pt-5">                        
+                            <h2 class="h2 text-light border-bottom pb-3 border-light">Rent&Go</h2>
+                        <ul class="list-unstyled text-light footer-link-list">
+                            <li>
+                                <i class="fas fa-map-marker-alt fa-fw" ></i> 
+                                <a class="text-decoration-none" href="https://maps.app.goo.gl/EuXv2E6Ca5APhxbBA" >Istam Tunisie, Rue du Cap-Vert, Tunis</a>
+                                
+                            </li>
+                            <li>
+                                <i class="fa fa-phone fa-fw"></i>
+                                <a class="text-decoration-none" href="tel:71 830 381">71 830 381</a>
+                            </li>
+                            <li>
+                                <i class="fa fa-envelope fa-fw"></i>
+                                <a class="text-decoration-none" >info@rentandgo.tn</a>
+                            </li>
+                            <li>
+                                <a class="text-decoration-none" href="#"><img class="img-fluid" src="./assets/img/logo.png" alt=""></a>
+                            </li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-md-4 pt-5">
+                        <h2 class="h2 text-light border-bottom pb-3 border-light">produits</h2>
+                        <ul class="list-unstyled text-light footer-link-list">
+                            <li><a class="text-decoration-none" href="#">Citadines</a></li>
+                            <li><a class="text-decoration-none" href="#">Off road</a></li>
+                            <li><a class="text-decoration-none" href="#">De luxe</a></li>
+                            <li><a class="text-decoration-none" href="#">Utilitaires</a></li> 
+                            <li><a class="text-decoration-none" href="#">Groupes</a></li>
+                        </ul>
+                    </div>
+    
+                    <div class="col-md-4 pt-5">
+                        <h2 class="h2 text-light border-bottom pb-3 border-light">Connection</h2>
+                        <ul class="list-unstyled text-light footer-link-list">
+                            <li><a class="text-decoration-none" href="#">Creer un compte</a></li>
+                            <li><a class="text-decoration-none" href="#">Se connecter</a></li>
+                        </ul>
+                    </div>
+    
+                </div>
+    
+                <div class="row text-light mb-4">
+                    <div class="col-12 mb-3">
+                        <div class="w-100 my-3 border-top border-light"></div>
+                    </div>
+                    <div class="col-auto me-auto">
+                        <ul class="list-inline text-left footer-icons">
+                            <li class="list-inline-item border border-light rounded-circle text-center">
+                                <a class="text-light text-decoration-none" target="_blank" href="http://facebook.com/"><i class="fab fa-facebook-f fa-lg fa-fw"></i></a>
+                            </li>
+                            <li class="list-inline-item border border-light rounded-circle text-center">
+                                <a class="text-light text-decoration-none" target="_blank" href="https://www.instagram.com/"><i class="fab fa-instagram fa-lg fa-fw"></i></a>
+                            </li>
+                            <li class="list-inline-item border border-light rounded-circle text-center">
+                                <a class="text-light text-decoration-none" target="_blank" href="https://twitter.com/"><i class="fab fa-twitter fa-lg fa-fw"></i></a>
+                            </li>
+                            <li class="list-inline-item border border-light rounded-circle text-center">
+                                <a class="text-light text-decoration-none" target="_blank" href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-lg fa-fw"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-auto">
+                        <label class="sr-only" for="subscribeEmail">Email address</label>
+                        <div class="input-group mb-2">
+                            <input type="text" class="form-control bg-dark border-light" id="subscribeEmail" placeholder="Email address">
+                            <div class="input-group-text btn-success text-light">Subscribe</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="w-100 bg-black py-3">
+                <div class="container">
+                    <div class="row pt-2">
+                        <div class="col-12">
+                            <p class="text-left text-light">
+                                Copyright &copy; 2024 Rent&Go
+                                 Designed by Rima Chamroukhi | Heni Akrout | Ghazi Haffiene | Aziz Guerfel
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+    
+        </footer>
+        <!-- End Footer -->
+    
+        <!-- Start Script -->
+        <script src="assets/js/jquery-1.11.0.min.js"></script>
+        <script src="assets/js/jquery-migrate-1.2.1.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/templatemo.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/Filter.js"></script>
+        <!-- End Script -->
+    </body>
+    
+    </html>
